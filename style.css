@@ -1,0 +1,124 @@
+body{
+    background-color: gray;
+}
+header h1{
+    color:  orangered;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav{
+    display: inline-block  ;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    margin:40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+header #Search{
+    display: inline-block;
+}
+#Search input{
+    border:2px solid orangered;
+    padding: 10px;
+    background-color: gray;
+    display: inline-block;
+
+}
+#Search ::placeholder{
+    color: white;
+}
+#Search button{
+    background-color: orangered;
+    padding: 10px;
+    margin-left: -5px;
+    display: inline-block;
+}
+
+.section1 .leftdiv{
+    float: left;
+    width: 500px;
+    margin-left: 100px;
+
+}
+
+.leftdiv h1{
+    color:  white;
+    font-size: 50px;
+}
+.leftdiv span{
+    color: orangered;
+}
+.leftdiv p{
+    color:  white;
+    font-size: 30px;
+}
+
+.leftdiv button{
+    background-color: orange;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.rightdiv{
+    float: right;
+    padding:50px;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-top: 50px;
+    height: 350px;
+}
+form input,button
+{
+    display:  block;
+    margin:20px auto;
+    
+}
+.btn1{
+    color: orange;
+    background-color: white;
+    padding: 10px 30px;
+    font-weight: bolder;
+    border-radius: 10px;
+
+}
+
+form input{
+    background-color: black;
+    color: white;
+    border: transparent;
+    border-bottom: 1px solid orange;
+}
+form input::placeholder{
+    color: white;
+}
+.login{
+    background-color: orange;
+    padding:10px 60px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#signup{
+    background-color: gray;
+    color: white;
+    padding: 20px 40px;
+}
+#signup span{
+    color: orange;
+}
+#LoginEmail{
+    background-color: white;
+    color: orangered;
+    padding:10px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
